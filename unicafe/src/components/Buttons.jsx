@@ -1,4 +1,4 @@
-import { useRatingController } from '../uniCafeStore'
+import { useRatingController } from '../store'
 
 const Buttons = () => {
   const { good, neutral, bad } = useRatingController()
