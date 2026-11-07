@@ -4,10 +4,10 @@ const AnecdoteForm = () => {
 
     const { add } = useAnecdotesActions()
 
-    const addAnecdote = (event) => {
+    const addAnecdote = async (event) => {
         event.preventDefault()
-        const anecdote = event.target.anecdote.value
-        add(anecdote)
+        const content = event.target.anecdote.value
+        await add(content)
         event.target.reset()
     }
 
