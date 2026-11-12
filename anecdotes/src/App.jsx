@@ -11,10 +11,10 @@ import Notification from "./components/Notification"
 import { useAnecdotesActions } from "./store"
 
 const App = () => {
-  const { initalize } = useAnecdotesActions()
+  const { initialize } = useAnecdotesActions()
   useEffect(() => {
-    initalize()
-  }, [initalize])
+    initialize()
+  }, [initialize])
   return (
     <div>
       <h2>Anecdotes</h2>

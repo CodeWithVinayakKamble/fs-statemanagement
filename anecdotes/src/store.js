@@ -9,7 +9,7 @@ const useAnecdoteStore = create((set, get) => ({
 
     setFilter: text => set(() => ({ filter: text })),
 
-    initalize: async () => {
+    initialize: async () => {
       const anecdotes = await anecdotesServices.getAll()
       set(() => ({ anecdotes }))
     },
@@ -51,3 +51,5 @@ export const useFilteredAnecdotes = () => {
 
   return anecdotes.filter(anecdote => anecdote.content.toLowerCase().includes(filter.toLowerCase()))
 }
+
+export default useAnecdoteStore
