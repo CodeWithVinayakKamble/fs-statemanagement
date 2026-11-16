@@ -3,7 +3,7 @@
     {
       "content": "If it hurts, do it more often",
       "id": "47145",
-      "votes": 3
+      "votes": 5
     },
     {
       "content": "Adding manpower to a late software project makes it later!",
@@ -23,12 +23,27 @@
     {
       "content": "Premature optimization is the root of all evil.",
       "id": "25170",
-      "votes": 3
+      "votes": 5
     },
     {
       "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
       "id": "98312",
-      "votes": 0
+      "votes": 1
+    },
+    {
+      "content": "fs-management-react-context-api",
+      "votes": 2,
+      "id": "6e4c52b4-694d-4214-9548-622fc645c155"
+    },
+    {
+      "content": "notification context is working perfectly fine",
+      "votes": 2,
+      "id": "372304d7-9962-4086-a423-203bc91d635a"
+    },
+    {
+      "content": "final testing anecdote for centerlize NotificationContext",
+      "votes": 1,
+      "id": "e9137f77-33c3-4a22-8dee-f9f22b81338d"
     }
   ]
 }
